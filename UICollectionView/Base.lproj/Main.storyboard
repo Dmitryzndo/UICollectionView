@@ -20,35 +20,21 @@
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="6Ap-hy-fU6">
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
-                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="oMU-fA-syR">
+                                <color key="backgroundColor" red="0.33125980729999999" green="1" blue="0.69891007770000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="2" minimumInteritemSpacing="0.0" id="oMU-fA-syR">
                                     <size key="itemSize" width="218" height="188"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    <inset key="sectionInset" minX="2" minY="2" maxX="2" maxY="2"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cellImage" id="Dto-tl-Rqc" customClass="ImageCollectionViewCell" customModule="UICollectionView" customModuleProvider="target">
-                                        <rect key="frame" x="98" y="0.0" width="218" height="188"/>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" reuseIdentifier="cellImage" id="Dto-tl-Rqc" customClass="ImageCollectionViewCell" customModule="UICollectionView" customModuleProvider="target">
+                                        <rect key="frame" x="98" y="2" width="218" height="188"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
                                             <rect key="frame" x="0.0" y="0.0" width="218" height="188"/>
                                             <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jdB-2R-EEE">
-                                                    <rect key="frame" x="0.0" y="0.0" width="218" height="188"/>
-                                                </imageView>
-                                            </subviews>
                                         </view>
-                                        <constraints>
-                                            <constraint firstItem="jdB-2R-EEE" firstAttribute="leading" secondItem="Dto-tl-Rqc" secondAttribute="leading" id="0DW-Eb-EK2"/>
-                                            <constraint firstAttribute="bottom" secondItem="jdB-2R-EEE" secondAttribute="bottom" id="9Gp-hn-e1a"/>
-                                            <constraint firstAttribute="trailing" secondItem="jdB-2R-EEE" secondAttribute="trailing" id="jqh-MF-J3n"/>
-                                            <constraint firstItem="jdB-2R-EEE" firstAttribute="top" secondItem="Dto-tl-Rqc" secondAttribute="top" id="xlT-hP-cjO"/>
-                                        </constraints>
-                                        <connections>
-                                            <outlet property="photoView" destination="jdB-2R-EEE" id="hwo-Vu-nkh"/>
-                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
@@ -68,7 +54,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="137.68115942028987" y="114.50892857142857"/>
+            <point key="canvasLocation" x="-110" y="-15"/>
         </scene>
     </scenes>
 </document>
